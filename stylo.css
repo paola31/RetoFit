@@ -3,9 +3,137 @@
 
 
 /*-- e-commerce paola */
+.animated-title {
+    font-size: 2.5rem;
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+.animated-title .highlight {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background-color: #af13c7;
+    z-index: -1;
+    animation: highlight-expand 1.5s ease-in-out infinite;
+    transition: all 0.3s;
+}
 
+.animated-title:hover .highlight {
+    background-color: #00a59d;
+}
+
+@keyframes highlight-expand {
+    0%, 100% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 120%;
+        height: 1.5rem;
+    }
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #00a59d;
+    font-weight: bold;
+}
+
+.card-text {
+    color: rgba(10, 12, 10, 0.8);
+}
+
+.btn-primary {
+    background-color: #b78dbb;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #af13c7;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+}
+
+.card-img-top {
+    width: 1000%;
+    height: 500px;
+    object-fit: cover;
+}
 
 /*-- se agregan los productos daniela */
+
+#cart-items {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.cart-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item img {
+    border-radius: 5px;
+}
+
+.cart-item div button {
+    margin: 0 5px;
+}
+
+#pay-cart {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #b78dbb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#clear-cart {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #b78dbb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#clear-cart:hover {
+    background-color: #af13c7;
+}
 
 
 /*-- Promocional Productos y retos yulian*/
