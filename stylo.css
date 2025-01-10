@@ -165,6 +165,168 @@ html {
     font-size: var(--heading-2-font-size, 20px);
     font-weight: var(--heading-2-font-weight, 700);
     position: relative;
+  }
+
+.hero-section,
+.hero-section * {
+  box-sizing: border-box;
+}
+.hero-section {
+  height: 1080px;
+  position: relative;
+}
+.nav-bar {
+  background: var(--off-black, #111111);
+  width: 1920px;
+  height: 148px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.logo {
+  width: 242px;
+  height: 75px;
+  position: absolute;
+  left: 114px;
+  top: 37px;
+  overflow: visible;
+}
+.frame-2 {
+  padding: 0px 25px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 682px;
+  position: absolute;
+  left: 798px;
+  top: 63px;
+}
+.group-12 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 36px;
+  position: static;
+}
+.home {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-13 {
+  background: #af13c7;
+  width: 5.57%;
+  height: 11.11%;
+  position: absolute;
+  right: 94.28%;
+  left: 0.15%;
+  bottom: 0%;
+  top: 88.89%;
+}
+.catalogs {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: relative;
+}
+.blog {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: relative;
+}
+.collections {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: relative;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: relative;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1657px;
+  top: 57px;
+}
+.icon-cart {
+  flex-shrink: 0;
+  width: 37.07px;
+  height: 33.37px;
+  position: relative;
+  overflow: visible;
+}
+.icon-search {
+  flex-shrink: 0;
+  width: 28.57px;
+  height: 28.57px;
+  position: relative;
+  overflow: visible;
+}
+.icon-hamburger-menu {
+  flex-shrink: 0;
+  width: 25px;
+  height: 21.43px;
+  position: relative;
+  overflow: visible;
+}
+.group-14 {
+  position: absolute;
+  inset: 0;
+}
+.artboard-1 {
+  width: 1920px;
+  height: 932px;
+  position: absolute;
+  left: 0px;
+  top: 148px;
+  object-fit: cover;
+}
+.button {
+  background: #111111;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 23px 61px 23px 61px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1139px;
+  top: 667px;
+}
+.shop-now {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: var(--heading-2-font-family, "RobotoCondensed-Bold", sans-serif);
+  font-size: var(--heading-2-font-size, 20px);
+  font-weight: var(--heading-2-font-weight, 700);
+  position: relative;
 }
 
 
