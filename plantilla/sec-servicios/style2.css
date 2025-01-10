@@ -1,0 +1,101 @@
+/* Estilo para el título */
+
+.retofit {
+    color: var(--lighter-light-gray, #eeeeee);
+    text-align: center;
+    font-family: "RobotoCondensed-Bold", sans-serif;
+    font-size: 60px;
+    /* Tamaño de fuente más adecuado */
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    /* Centrado horizontalmente */
+    top: 100px;
+    /* Ajustado para que no quede tan alto */
+    transform: translateX(-50%);
+    /* Centrado exacto */
+}
+
+
+/* Estilo para las imágenes */
+
+.imagen-principal {
+    width: 80%;
+    /* Ajustar al 80% del ancho del contenedor */
+    max-width: 800px;
+    /* No más grande que 800px */
+    height: auto;
+    /* Mantener proporciones */
+    position: absolute;
+    left: 50%;
+    /* Centrado horizontalmente */
+    top: 250px;
+    /* Espaciado desde el título */
+    transform: translateX(-50%);
+    /* Centrado exacto */
+    object-fit: cover;
+}
+
+.imagen-secundaria {
+    width: 80%;
+    /* Ajustar al 80% del ancho del contenedor */
+    max-width: 800px;
+    /* No más grande que 800px */
+    height: auto;
+    /* Mantener proporciones */
+    position: absolute;
+    left: 50%;
+    /* Centrado horizontalmente */
+    top: 650px;
+    /* Espaciado desde la imagen principal */
+    transform: translateX(-50%);
+    /* Centrado exacto */
+    object-fit: cover;
+}
+
+
+/* Rectángulos de fondo */
+
+.rectangulo-principal {
+    color: #afed00;
+    background: var(--off-black, #111111);
+    width: 100%;
+    height: 80px;
+    /* Ajustar la altura para hacerlo más razonable */
+    position: fixed;
+    /* Hacerlo fijo en la parte superior */
+    left: 0;
+    top: 0;
+    z-index: 10;
+    /* Asegurarse de que esté encima de otros elementos */
+}
+
+.rectangulo-secundario {
+    background: var(--energy, #afed00);
+    width: 155px;
+    height: 64px;
+    position: absolute;
+    left: 1100px;
+    top: 231px;
+}
+
+
+/* Contenido de texto */
+
+.texto-descripcion {
+    color: #0e0d0d;
+    text-align: center;
+    /* Centrado horizontalmente */
+    font-family: "RobotoCondensed-Bold", sans-serif;
+    font-size: 18px;
+    /* Reducido para ser más legible */
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    /* Ajustado para que esté cerca del título */
+    transform: translateX(-50%);
+    /* Centrado exacto */
+}
