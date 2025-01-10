@@ -1,0 +1,294 @@
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+.footer {
+  background: var(--off-black, #111111);
+  height: 539px;
+  position: relative;
+  overflow: hidden;
+}
+.group-52 {
+  position: absolute;
+  inset: 0;
+}
+.asset-1-3-x-1 {
+  width: 627.49px;
+  height: 314.42px;
+  position: absolute;
+  left: -303.98px;
+  top: 600.56px;
+  object-fit: cover;
+}
+.asset-1-3-x-2 {
+  width: 627.49px;
+  height: 314.42px;
+  position: absolute;
+  left: 323.51px;
+  top: 593.42px;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+  object-fit: cover;
+}
+.asset-1-3-x-12 {
+  width: 627.49px;
+  height: 314.42px;
+  position: absolute;
+  left: 328.87px;
+  top: 600.56px;
+  object-fit: cover;
+}
+.asset-1-3-x-22 {
+  width: 627.49px;
+  height: 314.42px;
+  position: absolute;
+  left: 956.36px;
+  top: 593.42px;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+  object-fit: cover;
+}
+.asset-1-3-x-13 {
+  width: 627.49px;
+  height: 314.42px;
+  position: absolute;
+  left: 962.66px;
+  top: 600.56px;
+  object-fit: cover;
+}
+.asset-1-3-x-23 {
+  width: 627.49px;
+  height: 314.42px;
+  position: absolute;
+  left: 1590.15px;
+  top: 593.42px;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+  object-fit: cover;
+}
+.asset-1-3-x-14 {
+  width: 627.49px;
+  height: 314.42px;
+  position: absolute;
+  left: 1595.51px;
+  top: 600.56px;
+  object-fit: cover;
+}
+.asset-1-3-x-24 {
+  width: 627.49px;
+  height: 314.42px;
+  position: absolute;
+  left: 2223px;
+  top: 593.42px;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+  object-fit: cover;
+}
+.find-a-store-sign-up-for-email-become-a-member-student-discount {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoCondensed-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 261px;
+  top: 79px;
+}
+.payment {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoCondensed-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 581px;
+  top: 79px;
+}
+.service {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoCondensed-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 805px;
+  top: 79px;
+}
+.careers-store-finder-account-contact-us {
+  color: #7d7d7d;
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 805px;
+  top: 134px;
+}
+.copyright-dotcreativemarket-all-rights-reserved {
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 261px;
+  top: 454px;
+}
+.copyright-dotcreativemarket-all-rights-reserved-span {
+  color: #7d7d7d;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+}
+.copyright-dotcreativemarket-all-rights-reserved-span2 {
+  color: #ffffff;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+}
+.copyright-dotcreativemarket-all-rights-reserved-span3 {
+  color: #7d7d7d;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+}
+.order-status-delivery-returns-payment-options-contact-us {
+  color: #7d7d7d;
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 1019px;
+  top: 134px;
+}
+.investor-careers-sustainable-innovation-uk-modern-slavery-act {
+  color: #7d7d7d;
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 1282px;
+  top: 134px;
+}
+.find-a-store {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoCondensed-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1019px;
+  top: 79px;
+}
+.news-about {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoCondensed-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1282px;
+  top: 79px;
+}
+.let-s-connect {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoCondensed-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1540px;
+  top: 79px;
+}
+.group {
+  height: auto;
+  position: absolute;
+  left: 582px;
+  top: 134px;
+  overflow: visible;
+}
+.group-55 {
+  height: auto;
+  position: absolute;
+  left: 627.9px;
+  top: 198.43px;
+  overflow: visible;
+}
+.group-57 {
+  height: auto;
+  position: absolute;
+  left: 628.35px;
+  top: 134px;
+  overflow: visible;
+}
+.group-58 {
+  height: auto;
+  position: absolute;
+  left: 582px;
+  top: 166.21px;
+  overflow: visible;
+}
+.group-56 {
+  height: auto;
+  position: absolute;
+  left: 582px;
+  top: 198.43px;
+  overflow: visible;
+}
+.group-54 {
+  height: auto;
+  position: absolute;
+  left: 628.36px;
+  top: 166.23px;
+  overflow: visible;
+}
+.group2 {
+  height: auto;
+  position: absolute;
+  left: 1540px;
+  top: 137.05px;
+  overflow: visible;
+}
+.group-59 {
+  height: auto;
+  position: absolute;
+  left: 1577px;
+  top: 137px;
+  overflow: visible;
+}
+.vector {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 1615px;
+  top: 137px;
+  overflow: visible;
+}
+.vector-1 {
+  width: 1397px;
+  height: 0px;
+  position: absolute;
+  left: 261px;
+  top: 437px;
+  overflow: visible;
+}

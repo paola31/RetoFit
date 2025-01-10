@@ -1,0 +1,198 @@
+.imagery,
+.imagery * {
+  box-sizing: border-box;
+}
+.imagery {
+  background: #ffffff;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.color-pallete {
+  background: #ffffff;
+  width: 35px;
+  height: 760px;
+  position: absolute;
+  left: 743px;
+  top: 20px;
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: var(--energy, #afed00);
+  width: 35px;
+  height: 139px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-2 {
+  background: #111111;
+  width: 35px;
+  height: 139px;
+  position: absolute;
+  left: 0px;
+  top: 155px;
+}
+.rectangle-3 {
+  background: var(--medium-grey, #a5a5a5);
+  width: 35px;
+  height: 140px;
+  position: absolute;
+  left: 0px;
+  top: 310px;
+}
+.rectangle-4 {
+  background: var(--light-grey, #e8e8e8);
+  width: 35px;
+  height: 139px;
+  position: absolute;
+  left: 0px;
+  top: 466px;
+}
+.rectangle-5 {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 35px;
+  height: 139px;
+  position: absolute;
+  left: 0px;
+  top: 621px;
+}
+.rectangle-6 {
+  background: rgba(201, 105, 57, 0.17);
+  width: 699px;
+  height: 760px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.young-woman-doing-fitness-in-sportswear {
+  width: 270px;
+  height: 294px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  object-fit: cover;
+}
+.athletic-woman-doing-fitness-training-outside-by-the-beach {
+  width: 127px;
+  height: 139px;
+  position: absolute;
+  left: 306px;
+  top: 20px;
+  object-fit: cover;
+}
+.unsplash-wy-l-8-w-0-zcp-i {
+  width: 270px;
+  height: 139px;
+  position: absolute;
+  left: 449px;
+  top: 20px;
+  object-fit: cover;
+}
+.young-woman-stretching-before-workout {
+  width: 270px;
+  height: 180px;
+  position: absolute;
+  left: 449px;
+  top: 175px;
+  object-fit: cover;
+}
+.young-woman-doing-fitness-in-sportswear2 {
+  width: 195px;
+  height: 293px;
+  position: absolute;
+  left: 524px;
+  top: 487px;
+  object-fit: cover;
+}
+.unsplash-d-3-b-ymn-z-0-ank {
+  width: 225px;
+  height: 140px;
+  position: absolute;
+  left: 345px;
+  top: 330px;
+  object-fit: cover;
+}
+.unsplash-9-hi-8-ujm-sd-za {
+  width: 173px;
+  height: 140px;
+  position: absolute;
+  left: 20px;
+  top: 330px;
+  object-fit: cover;
+}
+.pexels-photo-by-pixabay {
+  width: 210px;
+  height: 294px;
+  position: absolute;
+  left: 20px;
+  top: 486px;
+  object-fit: cover;
+}
+.pexels-photo-by-j-shoots {
+  width: 262px;
+  height: 139px;
+  position: absolute;
+  left: 246px;
+  top: 486px;
+  object-fit: cover;
+}
+.unsplash-n-6-gn-ca-77-urc {
+  width: 127px;
+  height: 139px;
+  position: absolute;
+  left: 306px;
+  top: 175px;
+  object-fit: cover;
+}
+.rectangle-11 {
+  background: #d9d9d9;
+  width: 16px;
+  height: 41px;
+  position: absolute;
+  left: 193px;
+  top: 348px;
+}
+.rectangle-12 {
+  background: #d9d9d9;
+  width: 16px;
+  height: 41px;
+  position: absolute;
+  left: 329px;
+  top: 348px;
+}
+.pexels-photo-by-maksim-goncharenok {
+  width: 123px;
+  height: 139px;
+  position: absolute;
+  left: 246px;
+  top: 641px;
+  object-fit: cover;
+}
+.unsplash-h-sb-2-hm-j-ya-to {
+  width: 126px;
+  height: 140px;
+  position: absolute;
+  left: 592px;
+  top: 330px;
+  object-fit: cover;
+}
+.unsplash-8-w-gsc-mkj-6-b-u {
+  width: 121px;
+  height: 140px;
+  position: absolute;
+  left: 209px;
+  top: 330px;
+  object-fit: cover;
+}
+.pexels-photo-by-hussein-altameemi {
+  width: 124px;
+  height: 139px;
+  position: absolute;
+  left: 384px;
+  top: 641px;
+  object-fit: cover;
+}
