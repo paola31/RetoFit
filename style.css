@@ -1,0 +1,427 @@
+.navbar {
+  background-color: #1a1a1a;
+  /* Negro off */
+  border-bottom: 4px solid #b78dbb;
+  /* Grosor del nav */
+  padding: 1rem 2rem;
+}
+
+.text-highlight {
+  color: #b78dbb !important;
+  font-weight: bold;
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.hero-section img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.cta-container {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  transform: translateY(-50%);
+}
+
+.btn-dark {
+  background-color: #af13c7;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.btn-dark:hover {
+  background-color: #960fa2;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+  color: #af13c7;
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg viewBox%3D"0 0 30 30" xmlns%3D"http://www.w3.org/2000/svg"%3E%3Cpath stroke%3D"rgba(255, 255, 255, 0.5)" stroke-width%3D"2" stroke-linecap%3D"round" stroke-miterlimit%3D"10" d%3D"M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+
+/* estilos carrito de compras */
+
+#cart-items {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.cart-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item img {
+  border-radius: 5px;
+}
+
+.cart-item div button {
+  margin: 0 5px;
+}
+
+#pay-cart {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #b78dbb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#clear-cart {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #b78dbb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#clear-cart:hover {
+  background-color: #b78dbb;
+}
+
+/* estilos tarjetasproduct */
+
+.animated-title {
+  font-size: 2.5rem;
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.animated-title .highlight {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  background-color: #b78dbb;
+  z-index: -1;
+  animation: highlight-expand 1.5s ease-in-out infinite;
+  transition: all 0.3s;
+}
+
+.animated-title:hover .highlight {
+  background-color: #00a59d;
+}
+
+@keyframes highlight-expand {
+
+  0%,
+  100% {
+    width: 0;
+    height: 0;
+  }
+
+  50% {
+    width: 120%;
+    height: 1.5rem;
+  }
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: #00a59d !important;
+  font-weight: bold !important;
+}
+
+.card-text {
+  color: rgba(10, 12, 10, 0.8);
+}
+
+.btn-primary {
+  background-color: #b78dbb !important;
+  border: none !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+
+.btn-primary:hover {
+  background-color: #b78dbb !important;
+}
+
+.card-img-top {
+  width: 1000%;
+}
+
+.seccion-2 {
+  border: #0e0d0d 1px solid;
+  margin-top: 40px;
+  /* Espaciado superior para separar esta sección de la anterior */
+  padding: 20px;
+  /* Relleno para que no se pegue a los bordes */
+}
+
+.retofit {
+  color: var(--lighter-light-gray, #757171);
+  text-align: center;
+  font-family: "RobotoCondensed-Bold", sans-serif;
+  font-size: 100px;
+  /* Aumenté aún más el tamaño de la fuente */
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  left: 50%;
+  top: 40px;
+  /* Ajusté para que esté centrado, no tan arriba */
+  transform: translateX(-50%);
+  margin-bottom: 50px;
+  /* Espaciado adicional debajo para separar del siguiente contenido */
+}
+
+.imagen-principal {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  object-fit: cover;
+}
+
+.imagen-secundaria {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  object-fit: cover;
+}
+
+.rectangulo-principal {
+  background: #b78dbb;
+  color: #ffffff;
+  /* Texto en blanco */
+  width: 100%;
+  height: 80px;
+  position: relative;
+  margin: 20px 0;
+  /* Margen superior e inferior para separar los elementos */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Centra el texto tanto horizontal como verticalmente */
+}
+
+.texto-descripcion {
+  color: #ffffff;
+  /* Texto blanco */
+  text-align: center;
+  font-family: "RobotoCondensed-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+
+/* Contenedor principal con margen morado */
+
+.main-container {
+  width: 95%;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #b78dbb;
+  /* Borde morado */
+  border-radius: 10px;
+  margin-bottom: 60px;
+  /* Espacio al fondo */
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* Permite que las tarjetas se ajusten en filas */
+  margin-top: 20px;
+}
+
+
+/* Tarjetas */
+
+.card {
+  width: 250px;
+  height: 350px;
+  /* Ajuste para que las tarjetas se vean grandes */
+  perspective: 1000px;
+  margin-bottom: 40px;
+  /* Espacio inferior entre tarjetas */
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-front {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-front h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 15px;
+}
+
+.card-front img {
+  width: 260px;
+  /* Imagen más grande */
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card-back {
+  background: #5fbdb6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: rotateY(180deg);
+  padding: 20px;
+}
+
+.card-back p {
+  font-size: 16px;
+  color: #f4eff5;
+  line-height: 1.5;
+}
+
+.product-container {
+  width: 95%;
+  padding: 20px;
+  background-color: white;
+  border: 5px solid #b78dbb;
+  /* Borde morado */
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.product-container h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+/* Estilo del carrusel de productos */
+
+.product-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.product-item {
+  width: 180px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+.product-item img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-item h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+.product-item .price-button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #b78dbb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.product-item .price-button:hover {
+  background-color: #b78dbb;
+}
