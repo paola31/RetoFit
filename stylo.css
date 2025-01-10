@@ -378,8 +378,8 @@ html {
 }
 
 .card-title {
-    color: #00a59d;
-    font-weight: bold;
+    color: #00a59d !important;
+    font-weight: bold !important;
 }
 
 .card-text {
@@ -387,18 +387,14 @@ html {
 }
 
 .btn-primary {
-    background-color: #b78dbb;
-    border: none;
-    font-weight: bold;
-    font-size: 20px;
+    background-color: #b78dbb !important;
+    border: none !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
 }
 
 .btn-primary:hover {
-    background-color: #af13c7;
-}
-
-.btn-danger:hover {
-    background-color: #bd2130;
+    background-color: #af13c7 !important;
 }
 
 .card-img-top {
