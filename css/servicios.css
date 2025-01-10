@@ -1,24 +1,34 @@
+.seccion-2 {
+    border: #0e0d0d 1px solid;
+    margin-top: 40px;
+    /* Espaciado superior para separar esta sección de la anterior */
+    padding: 20px;
+    /* Relleno para que no se pegue a los bordes */
+}
+
 .retofit {
     color: var(--lighter-light-gray, #eeeeee);
     text-align: center;
     font-family: "RobotoCondensed-Bold", sans-serif;
-    font-size: 60px;
+    font-size: 100px;
+    /* Aumenté aún más el tamaño de la fuente */
     font-weight: 700;
     text-transform: uppercase;
-    position: absolute;
+    position: relative;
     left: 50%;
-    top: 100px;
+    top: 40px;
+    /* Ajusté para que esté centrado, no tan arriba */
     transform: translateX(-50%);
+    margin-bottom: 50px;
+    /* Espaciado adicional debajo para separar del siguiente contenido */
 }
 
 .imagen-principal {
     width: 80%;
     max-width: 800px;
     height: auto;
-    position: absolute;
-    left: 50%;
-    top: 250px;
-    transform: translateX(-50%);
+    margin: 20px auto;
+    display: block;
     object-fit: cover;
 }
 
@@ -26,42 +36,33 @@
     width: 80%;
     max-width: 800px;
     height: auto;
-    position: absolute;
-    left: 50%;
-    top: 650px;
-    transform: translateX(-50%);
+    margin: 20px auto;
+    display: block;
     object-fit: cover;
 }
 
 .rectangulo-principal {
-    color: #afed00;
     background: var(--off-black, #111111);
+    color: #ffffff;
+    /* Texto en blanco */
     width: 100%;
     height: 80px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 10;
-}
-
-.rectangulo-secundario {
-    background: var(--energy, #afed00);
-    width: 155px;
-    height: 64px;
-    position: absolute;
-    left: 1100px;
-    top: 231px;
+    position: relative;
+    margin: 20px 0;
+    /* Margen superior e inferior para separar los elementos */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Centra el texto tanto horizontal como verticalmente */
 }
 
 .texto-descripcion {
-    color: #0e0d0d;
+    color: #ffffff;
+    /* Texto blanco */
     text-align: center;
     font-family: "RobotoCondensed-Bold", sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    position: absolute;
-    left: 50%;
-    top: 150px;
-    transform: translateX(-50%);
 }
